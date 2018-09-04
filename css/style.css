@@ -1,0 +1,126 @@
+body {
+    background-color: #f5f5f0;
+    font-family: 'Montserrat', sans-serif;
+    /* color: #2399cc */
+}
+
+.top-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    border-top: 3px solid #000000;
+    background-color: #2399cc;
+    z-index: 10;
+}
+
+.top-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-bar li {
+    padding: 5px;
+    display: inline;
+    color: white;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-bar a:hover {
+    color: black;
+}
+
+.top-bar .gitty {
+    text-align: right;
+}
+
+.top-bar .avi {
+    border-radius: 50%;
+}
+
+.main {
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+.flexing {
+    display: flex;
+}
+
+.intro .avi2 {
+    position: relative;
+    margin-top: -50px;
+    z-index: 5;
+    border-radius: 50%;
+    border: 2px solid #2399cc;
+}
+
+.main .hero {
+    margin-right: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #2399cc;;
+}
+
+.main .about-section {
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid #2399cc;
+}
+
+.about-section ul {
+    list-style: none;
+}
+
+.about-section li {
+    text-align: left;
+}
+
+.about-section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.about-section a:hover {
+    color: #2399cc;
+}
+
+.photos {
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid #2399cc;
+}
+
+.photos img {
+    margin: 3px;
+}
+
+.college {
+    margin-left: -25px;
+    text-align: left;
+}
+
+.main2 {
+    padding: 10px;
+}
+
+.avi2 {
+    border-radius: 50%;
+}
+
+.content1, .content2 {
+    padding: 5px; 
+    background-color: white;
+    border: 1px solid #2399cc;
+}
+
+.main2 .content2 {
+    margin-top: 20px;
+}

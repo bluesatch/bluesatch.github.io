@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Satch</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="top-bar">
@@ -20,21 +23,30 @@
                         <li class="contact"><a href="#">Contact</a></li>
                     </ul>
                 </div><!--close column 6-->
-                <div class="col-sm-6">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <img src="https:/placehold.it/10x10" alt="avi">
+                <div class="gitty col-sm-6">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/bluesatch" target="_blank"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/herbert-brown-592a96145/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <img src="images/avi.jpg" width="20" height="20" class="avi" alt="avi">
+                        </li>
+                    </ul>
                 </div><!--close column 6-->
             </div><!--close row-->
         </div><!--close container-->
     </div><!--close top bar-->
     <div class="main">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
+            <div class="row flexing">
+                <div class="col-sm-3 intro">
                     <div class="hero">
-                        <img class="background-img" src="https:/placehold.it/200x125">
+                        <img class="background-img" src="images/satchelpaige.png" width="200" height="125">
                         <div class="hero-inner">
-                            <img class="avi2" src="https:/placehold.it/80x80" alt="avi2">
+                            <img class="avi2" src="images/avi.jpg" width="80" height="80" alt="avi2">
                             <p class="name">Satchel Page</p>
                             <p class="quote">Political Prisoner of the Moment</p>
                             <div class="followers">
@@ -42,14 +54,65 @@
                                 <p>##</p>
                                 <p>Following</p>
                                 <p>##</p>
+                            </div><!--Close followers-->
+                        </div><!--close hero inner-->
+                    </div><!--close hero-->
+                    <div class="about-section">
+                        <p><strong>About</strong><span class="edit"><a href="#">Edit</a></span></p>
+                        <ul class="bio">
+                            <li>Went to:
+                                <ul class="college">
+                                    <li><a href="https://www.mc.edu/" target="_blank">Mississippi College</a></li>
+                                    <li><a href="http://www.jsums.edu/" target="_blank">Jackson State University</a></li>
+                                </ul>
+                            </li>
+                            <li>Works at: <a href="https://www.mscoding.org/">Mississippi Coding Academies</a></li>
+                            <li>Lives in: Jackson, Ms</li>
+                        </ul>
+                    </div><!--close about-->
+                    <div class="photos">
+                        <p>Photos</p>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <img src="https:/placehold.it/80x80">
                             </div>
+                            <div class="col-xs-6">
+                                <img src="https:/placehold.it/80x80">
+                            </div><!--close col xs 6-->
+                        </div><!--close row-->
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <img src="https:/placehold.it/80x80">
+                            </div>
+                            <div class="col-xs-6">
+                                <img src="https:/placehold.it/80x80">
+                            </div><!--close col xs 6-->
+                        </div><!--close row-->
+                    </div><!--close photos-->
+                </div><!--close col-sm-3-->
+                <div class="col-sm-6">
+                    <div class="main2">
+                        <div class="content1">
+                            <img src="images/avi.jpg" class="avi2" width="30" height="30">
+                            <h3>Satchel Page</h3>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel aliquam, quisquam dignissimos vero commodi. Autem, assumenda quasi aliquid consequatur commodi sapiente, modi, voluptates nobis facilis beatae iusto sed saepe cumque natus ad? Quia assumenda quaerat placeat iste magni minus quas praesentium rerum eligendi, odio repellendus ea tempora ipsum ipsam? Laborum, distinctio! Cupiditate est molestias reprehenderit perspiciatis animi, saepe temporibus quo ullam aut voluptas eum ex voluptatibus, esse, incidunt ratione mollitia eligendi ducimus numquam dolorem dolorum laboriosam odio qui obcaecati. Quis eveniet, maxime vel praesentium odio reiciendis quasi harum rem laudantium minima iure aliquam obcaecati sit animi accusantium adipisci dolorem!</p>
+                            <img src="https:/placehold.it/200x200">
                         </div>
+                        <div class="content2">
+                            <img src="images/avi.jpg" class="avi2" width="30" height="30">
+                            <h3>Satchel Page</h3>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel aliquam, quisquam dignissimos vero commodi. Autem, assumenda quasi aliquid consequatur commodi sapiente, modi, voluptates nobis facilis beatae iusto sed saepe cumque natus ad? Quia assumenda quaerat placeat iste magni minus quas praesentium rerum eligendi, odio repellendus ea tempora ipsum ipsam? Laborum, distinctio! Cupiditate est molestias reprehenderit perspiciatis animi, saepe temporibus quo ullam aut voluptas eum ex voluptatibus, esse, incidunt ratione mollitia eligendi ducimus numquam dolorem dolorum laboriosam odio qui obcaecati. Quis eveniet, maxime vel praesentium odio reiciendis quasi harum rem laudantium minima iure aliquam obcaecati sit animi accusantium adipisci dolorem!</p>
+                            <img src="https:/placehold.it/200x200">
+                        </div>
+                    </div><!--close main-->
+                </div><!--close col sm 6-->
+                <div class="col-sm-3">
+                    <div class="quotes">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet exercitationem molestiae non numquam nihil repellat ullam. Corporis minus rerum error repellendus unde, quia numquam ratione. Sunt non veniam quaerat assumenda, illo vel accusantium deleniti sed odit ullam voluptates itaque fugiat?</p>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div><!--close col sm 3-->
+            </div><!--close row-->
+        </div><!--close container-->
     </div>
-
-    
 </body>
 </html>
