@@ -47,7 +47,6 @@ body {
 .main {
     margin-top: 100px;
     position: relative;
-    
 }
 
 .flexing {
@@ -92,8 +91,13 @@ body {
     color: #2399cc;
 }
 
+.abt {
+    text-align: center;
+}
+
 .photos {
     margin-top: 40px;
+    padding-bottom: 3px;
     background-color: white;
     border: 1px solid #2399cc;
 }
@@ -102,9 +106,13 @@ body {
     margin: 3px;
 }
 
+.pht {
+    text-align: center;
+}
+
 .college {
     margin-left: -25px;
-    text-align: left;
+    list-style-position: outside;
 }
 
 .main2 {
