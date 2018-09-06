@@ -53,6 +53,9 @@ body {
     display: flex;
 }
 
+.intro {
+    padding: 0px;
+}
 .intro .avi2 {
     position: relative;
     margin-top: -50px;
