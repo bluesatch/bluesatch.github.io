@@ -4,114 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>Satch</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="top-bar"><!--Navigation Bar-->
+    <header>
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>"Satch"</h1>
+                        <p class="intro">Husband. Father. Artist. Instructor. Developer. Student. Human.</p>
+                        <button class="btn button">About</button>
+                        <button class="btn button">Projects</button>
+                    </div>
+                </div>
+                <!-- close row -->
+            </div>
+            <!-- close container -->
+            <img src="https://via.placeholder.com/1440x850" alt="placeholder img" class="img-responsive">
+            <!-- to be replaced with background-img -->
+        </div>
+        <!-- close hero -->
+    </header>
+    <!-- close header -->
+    <nav class="navbar">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <ul>
-                        <li class="baseball"><a href="#"><i class="fas fa-baseball-ball"></i><span class="hidden-xs">Home</span></li>
-                        <li class="about"><a href="#"><i class="fas fa-info"></i><span class="hidden-xs">About</span></a></li>
-                        <li class="codes"><a href="#"><i class="fas fa-laptop-code"></i><span class="hidden-xs">Codes</span></a></li>
-                        <li class="contact"><a href="#"><i class="fas fa-at"></i><span class="hidden-xs">Contact</span></a></li>
+                        <li>home</li>
+                        <li>about</li>
+                        <li>projects</li>
+                        <li>blog</li>
+                        <li>contact</li>
                     </ul>
-                </div><!--close column 6-->
-                <div class="gitty col-sm-6"><!--github and linked in link-->
-                    <ul>
-                        <li>
-                            <a href="https://github.com/bluesatch" target="_blank"><i class="fab fa-github"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/herbert-brown-592a96145/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <li>
-                            <img src="images/avi.jpg" width="20" height="20" class="avi" alt="avi">
-                        </li>
-                    </ul>
-                </div><!--close column 6-->
-            </div><!--close row-->
-        </div><!--close container-->
-    </div><!--close top bar-->
-    <div class="main">
-        <div class="container">
-            <div class="row flexing">
-                <div class="col-sm-3 intro">
-                    <div class="hero box"><!--Hero box; image, name, and community-->
-                        <img class="background-img" src="images/satchelpaige.png" width="280.5" height="125">
-                        <div class="hero-inner">
-                            <img class="avi2" src="images/avi.jpg" width="80" height="80" alt="avi2">
-                            <h4 class="name">Satchel Page</h4>
-                            <p class="quote">Political Prisoner of the Moment</p>
-                            <div class="followers">
-                                <p>Followers</p>
-                                <p>##</p>
-                                <p>Following</p>
-                                <p>##</p>
-                            </div><!--Close followers-->
-                        </div><!--close hero inner-->
-                    </div><!--close hero-->
-                    <div class="about-section box">
-                        <h4 class="abt">About</a></h4>
-                        <ul class="bio">
-                            <li>Went to:
-                                <ul class="college">
-                                    <li><a href="https://www.mc.edu/" target="_blank">Mississippi College</a></li>
-                                    <li><a href="http://www.jsums.edu/" target="_blank">Jackson State University</a></li>
-                                </ul>
-                            </li>
-                            <li>Works at: <a href="https://www.mscoding.org/">Mississippi Coding Academies</a></li>
-                            <li>Lives in: Jackson, Ms</li>
-                        </ul>
-                    </div><!--close about-->
-                    <div class="photos box">
-                        <h4 class="pht">Photos</h4>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <img src="images/headshot copy.jpg" width="80" height="80">
-                            </div>
-                            <div class="col-xs-6">
-                                <img src="images/hipster.jpg" width="80" height="80">
-                            </div><!--close col xs 6-->
-                        </div><!--close row-->
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <img src="images/redclay.jpg" width="80" height="80">
-                            </div>
-                            <div class="col-xs-6">
-                                <img src="images/codingacademylogo.jpg" width="80" height="80">
-                            </div><!--close col xs 6-->
-                        </div><!--close row-->
-                    </div><!--close photos-->
-                </div><!--close col-sm-3-->
+                </div>
                 <div class="col-sm-6">
-                    <div class="main2">
-                        <div class="content1 box">
-                            <img src="images/avi.jpg" class="avi2" width="30" height="30">
-                            <h3>Satchel Page</h3>
-                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel aliquam, quisquam dignissimos vero commodi. Autem, assumenda quasi aliquid consequatur commodi sapiente, modi, voluptates nobis facilis beatae iusto sed saepe cumque natus ad? Quia assumenda quaerat placeat iste magni minus quas praesentium rerum eligendi, odio repellendus ea tempora ipsum ipsam? Laborum, distinctio! Cupiditate est molestias reprehenderit perspiciatis animi, saepe temporibus quo ullam aut voluptas eum ex voluptatibus, esse, incidunt ratione mollitia eligendi ducimus numquam dolorem dolorum laboriosam odio qui obcaecati. Quis eveniet, maxime vel praesentium odio reiciendis quasi harum rem laudantium minima iure aliquam obcaecati sit animi accusantium adipisci dolorem!</p>
-                            <img src="https:/placehold.it/200x200">
-                        </div>
-                        <div class="content2 box">
-                            <img src="images/avi.jpg" class="avi2" width="30" height="30">
-                            <h3>Satchel Page</h3>
-                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel aliquam, quisquam dignissimos vero commodi. Autem, assumenda quasi aliquid consequatur commodi sapiente, modi, voluptates nobis facilis beatae iusto sed saepe cumque natus ad? Quia assumenda quaerat placeat iste magni minus quas praesentium rerum eligendi, odio repellendus ea tempora ipsum ipsam? Laborum, distinctio! Cupiditate est molestias reprehenderit perspiciatis animi, saepe temporibus quo ullam aut voluptas eum ex voluptatibus, esse, incidunt ratione mollitia eligendi ducimus numquam dolorem dolorum laboriosam odio qui obcaecati. Quis eveniet, maxime vel praesentium odio reiciendis quasi harum rem laudantium minima iure aliquam obcaecati sit animi accusantium adipisci dolorem!</p>
-                            <img src="https:/placehold.it/200x200">
-                        </div>
-                    </div><!--close main-->
-                </div><!--close col sm 6-->
-                <div class="col-sm-3">
-                    <div class="quotes box">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet exercitationem molestiae non numquam nihil repellat ullam. Corporis minus rerum error repellendus unde, quia numquam ratione. Sunt non veniam quaerat assumenda, illo vel accusantium deleniti sed odit ullam voluptates itaque fugiat?</p>
+                    <ul class="icons sm-links">
+                        <li><span class="sr-only">github</span></li>
+                        <li><span class="sr-only">twitter</span></li>
+                        <li><span class="sr-only">linkedin</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- close row -->
+        </div>
+        <!-- close container -->
+    </nav>
+    <!-- close nav -->
+    <main>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>about me</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate aspernatur inventore, nulla dolor beatae ab nisi fugiat doloribus deleniti, assumenda dolore corporis, dignissimos unde reiciendis facilis nesciunt vero architecto tempora debitis labore deserunt atque ad. Similique beatae fuga voluptates dicta.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate aspernatur inventore, nulla dolor beatae ab nisi fugiat doloribus deleniti, assumenda dolore corporis, dignissimos unde reiciendis facilis nesciunt vero architecto tempora debitis labore deserunt atque ad. Similique beatae fuga voluptates dicta.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate aspernatur inventore, nulla dolor beatae ab nisi fugiat doloribus deleniti, assumenda dolore corporis, dignissimos unde reiciendis facilis nesciunt vero architecto tempora debitis labore deserunt atque ad. Similique beatae fuga voluptates dicta.</p>
+                        <img src="https://via.placeholder.com/360x270" alt="placeholder img" class="img-responsive">
+                        
                     </div>
-                </div><!--close col sm 3-->
-            </div><!--close row-->
-        </div><!--close container-->
-    </div>
+                    <div class="col-sm-4">
+                        <img src="https://via.placeholder.com/360x480" alt="placeholder img" class="img-responsive">  
+                    </div>
+                </div>
+                <!-- close row -->
+            </div>
+            <!-- close container -->
+        </div>
+        <!-- close about -->
+        <div class="projects">
+            <!-- want a slider where main image is the project image that is highlighted -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="projects-header">projects</h2>
+                    </div>
+                </div>
+                <!-- close row -->
+            </div>
+            <!-- close container -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="https://via.placeholder.com/1240x580" alt="placeholder img">
+                        <!-- this will be highlighted img -->
+                    </div>
+                </div>
+                <!-- close row -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
+                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
+                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
+                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
+                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
+                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
+                        <img src="https://via.placeholder.com/160x100" alt="placeholder img"> 
+                    </div>
+                </div>
+                <!-- close row -->
+            </div>
+            <!-- close container -->
+        </div>
+        <!-- close projects -->
+        <div class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="blog-header">blog</h2>
+                    </div>
+                </div>
+                <!-- close row -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="blog-content">
+                            <img src="https://via.placeholder.com/335x180" alt="placeholder img">
+                            <h3 class="blog-title">Blog1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eum alias expedita reprehenderit aliquid natus ipsam, recusandae dolor culpa <a href="#link">voluptatibus.</a></p>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="blog-content">
+                            <img src="https://via.placeholder.com/335x180" alt="placeholder img">
+                            <h3 class="blog-title">Blog1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eum alias expedita reprehenderit aliquid natus ipsam, recusandae dolor culpa <a href="#link">voluptatibus.</a></p>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="blog-content">
+                            <img src="https://via.placeholder.com/335x180" alt="placeholder img">
+                            <h3 class="blog-title">Blog1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eum alias expedita reprehenderit aliquid natus ipsam, recusandae dolor culpa <a href="#link">voluptatibus.</a></p>
+                        </div>  
+                    </div>
+                </div>
+                <!-- close row -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="blog-content">
+                            <img src="https://via.placeholder.com/335x180" alt="placeholder img">
+                            <h3 class="blog-title">Blog1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eum alias expedita reprehenderit aliquid natus ipsam, recusandae dolor culpa <a href="#link">voluptatibus.</a></p>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="blog-content">
+                            <img src="https://via.placeholder.com/335x180" alt="placeholder img">
+                            <h3 class="blog-title">Blog1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eum alias expedita reprehenderit aliquid natus ipsam, recusandae dolor culpa <a href="#link">voluptatibus.</a></p>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="blog-content">
+                            <img src="https://via.placeholder.com/335x180" alt="placeholder img">
+                            <h3 class="blog-title">Blog1</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit eum alias expedita reprehenderit aliquid natus ipsam, recusandae dolor culpa <a href="#link">voluptatibus.</a></p>
+                        </div>  
+                    </div>
+                </div>
+                <!-- close row -->
+            </div>
+            <!-- close container -->
+        </div>
+        <!-- close blog -->
+    </main>
 </body>
 </html>
