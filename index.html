@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <script src="https://kit.fontawesome.com/a6ddc4e9e0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Satch</title>
 </head>
 <body>
     <header>
-        <div class="hero">
+        <div id="#top" class="hero">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <h1>"Satch"</h1>
                         <p class="intro">Husband. Father. Artist. Instructor. Developer. Student. Human.</p>
-                        <button class="btn button">About</button>
-                        <button class="btn button">Projects</button>
+                        <div class="button-wrapper">
+                            <button class="btn button">About</button>
+                            <button class="btn button">Projects</button>
+                        </div>
                     </div>
                 </div>
                 <!-- close row -->
             </div>
-            <!-- close container -->
-            <img src="https://via.placeholder.com/1440x850" alt="placeholder img" class="img-responsive">
-            <!-- to be replaced with background-img -->
         </div>
         <!-- close hero -->
     </header>
@@ -32,20 +33,29 @@
     <nav class="navbar">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    <ul>
-                        <li>home</li>
-                        <li>about</li>
-                        <li>projects</li>
-                        <li>blog</li>
-                        <li>contact</li>
+                <div class="col-sm-9">
+                    <ul class="menu">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#projects">projects</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#contacts">contact</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-3">
                     <ul class="icons sm-links">
-                        <li><span class="sr-only">github</span></li>
-                        <li><span class="sr-only">twitter</span></li>
-                        <li><span class="sr-only">linkedin</span></li>
+                        <li>
+                            <a href="https://github.com/bluesatch" target="_blank"><i class="fab fa-github"></i><span class="sr-only">github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/bluesatch" target="_blank"><i class="fab fa-twitter"></i><span class="sr-only">twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/herbert-brown-592a96145/" target="_blank"><i class="fab fa-linkedin-in"></i><span class="sr-only">linkedin</span></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/dashboard/" target="_blank"><i class="fab fa-codepen"></i><span class="sr-only">codepen</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -59,15 +69,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8">
-                        <h2>about me</h2>
+                        <h2 id="about toggle">about me</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate aspernatur inventore, nulla dolor beatae ab nisi fugiat doloribus deleniti, assumenda dolore corporis, dignissimos unde reiciendis facilis nesciunt vero architecto tempora debitis labore deserunt atque ad. Similique beatae fuga voluptates dicta.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate aspernatur inventore, nulla dolor beatae ab nisi fugiat doloribus deleniti, assumenda dolore corporis, dignissimos unde reiciendis facilis nesciunt vero architecto tempora debitis labore deserunt atque ad. Similique beatae fuga voluptates dicta.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate aspernatur inventore, nulla dolor beatae ab nisi fugiat doloribus deleniti, assumenda dolore corporis, dignissimos unde reiciendis facilis nesciunt vero architecto tempora debitis labore deserunt atque ad. Similique beatae fuga voluptates dicta.</p>
-                        <img src="https://via.placeholder.com/360x270" alt="placeholder img" class="img-responsive">
+                        <img src="images/avi.png" alt="avi" class="img-responsive avi">
                         
                     </div>
                     <div class="col-sm-4">
-                        <img src="https://via.placeholder.com/360x480" alt="placeholder img" class="img-responsive">  
+                        <img src="images/headshot.jpg" alt="headshot" class="img-responsive headshot">  
                     </div>
                 </div>
                 <!-- close row -->
@@ -80,7 +90,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h2 class="projects-header">projects</h2>
+                        <h2 id="projects toggle" class="projects-header">projects</h2>
                     </div>
                 </div>
                 <!-- close row -->
@@ -89,20 +99,42 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <img src="https://via.placeholder.com/1240x580" alt="placeholder img">
+                        <!-- dimensions: 1240x580 -->
+                        <div id="project-movie" class="project-movie"></div>
                         <!-- this will be highlighted img -->
                     </div>
                 </div>
                 <!-- close row -->
-                <div class="row">
-                    <div class="col-sm-12">
-                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
-                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
-                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
-                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
-                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
-                        <img src="https://via.placeholder.com/160x100" alt="placeholder img">
-                        <img src="https://via.placeholder.com/160x100" alt="placeholder img"> 
+                <div class="row project-row">
+                    <div class="col-sm-2">
+                        <div class="img-box">
+                            <img src="images/detroix-screenshot.png" alt="detroix screenshot" data-id="detroix" class="detroix">
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="img-box">
+                            <img src="images/venedor-screenshot.png" alt="venedor screenshot" data-id="venedor" class="venedor">
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="img-box">
+                            <img src="images/bloom-screenshot.png" alt="bloom" data-id="bloom" class="bloom">
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="img-box">
+                            <img src="images/todo-screenshot.png" alt="todo list" data-id="todo" class="todo">
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="img-box">
+                            <img src="images/grocery-screenshot.png" alt="grocery store" data-id="grocery" class="grocery">
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="img-box">
+                            <img src="images/position-screenshot.png" alt="position" data-id="position" class="position">
+                        </div>
                     </div>
                 </div>
                 <!-- close row -->
@@ -114,7 +146,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h2 class="blog-header">blog</h2>
+                        <h2 id="blog toggle" class="blog-header">blog</h2>
                     </div>
                 </div>
                 <!-- close row -->
@@ -171,5 +203,42 @@
         </div>
         <!-- close blog -->
     </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 id="contacts">Contact</h2>
+                    <ul>
+                        <li><a href="tel:+1-769-300-1534">769.300.1534</a></li>
+                        <li><a href="mailto:hebrown12@gmail.com">hebrown12@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="icons sm-links">
+                        <li>
+                            <a href="https://github.com/bluesatch" target="_blank"><i class="fab fa-github"></i><span class="sr-only">github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/bluesatch" target="_blank"><i class="fab fa-twitter"></i><span class="sr-only">twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/herbert-brown-592a96145/" target="_blank"><i class="fab fa-linkedin-in"></i><span class="sr-only">linkedin</span></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/dashboard/" target="_blank"><i class="fab fa-codepen"></i><span class="sr-only">codepen</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- close row -->
+        </div>
+        <!-- close container -->
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
