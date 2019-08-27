@@ -1,13 +1,9 @@
-// $(document).ready(function() {
-//     // do stuff
-//     console.log('Hello World');
-//     $().click(function(){
-//         // do stuff
-//         // when I click on project image, I want image in project movie
-//         $('.hello').toggleClass('goodbye');
-//     })
-// });
+// $(selector).action()
 
-.$(document).click(function() {
-    $('#toggle').slideToggle(200);
+$(document).ready(function() {
+    $('.proj-img').click(function() {
+        $('.show').removeClass('show');
+        var id = $(this).data('id');
+        $('#'+id).addClass('show');
+    })
 })

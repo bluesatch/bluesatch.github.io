@@ -8,7 +8,7 @@ body {
 
 h1 {
     margin-top: 0;
-    font-size: calc(64px + (64 - 32) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(64px + (64 - 24) * ((100vw - 300px) / (1600 - 300)));
     text-transform: uppercase;
     text-align: center; 
     line-height: 3;
@@ -31,6 +31,10 @@ a {
 a:hover {
     color: #4cc2f1;
     text-decoration: none;
+}
+
+.shadow:hover {
+    text-shadow: 5px 5px 5px #555;
 }
 
 /* header content */
@@ -68,17 +72,6 @@ a:hover {
     /* opacity: .5; */
 }
 
-.button-wrapper {
-    width: 200px;
-    margin: 0 auto;
-}
-
-.button-wrapper button {
-    background: #4cc2f1;
-    color: #eee;
-    margin: 10px;
-}
-
 /* nav content */
 
 .navbar {
@@ -112,14 +105,27 @@ a:hover {
     color: #eee;
 }
 
-.navbar .menu li {
+/* .menu {
+    visibility: visible;
+} */
+
+/* @media (max-width: 768px) {
+    .menu {
+        visibility: hidden; 
+    }
+} */
+
+.menu li {
     margin-right: 30px;
 }
 
-.navbar .menu a:hover {
+.menu a {
+    padding: 5px;
+}
+
+.menu a:hover {
     background: #00a8a9;
     border-radius: 2px;
-    padding: 5px;
     color: #64388b;
     /* opacity: .5; */
 }
@@ -129,10 +135,23 @@ a:hover {
     text-align: right;
 }
 
+@media (max-width: 768px) {
+    .navbar .icons {
+        text-align: center;
+    }
+}
+
 .icons li {
     margin-left: 20px;
     padding-right: 15px;
     font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .icons li {
+        margin-left: 0px;
+        font-size: 24px;
+    }
 }
 
 .icons li:last-child {
@@ -142,11 +161,13 @@ a:hover {
 /* about content */
 
 .about {
-    padding: 30px;
-    margin-bottom: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .headshot {
+    display: block;
+    margin-top: 15px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #64388b;
 }
@@ -159,14 +180,22 @@ a:hover {
 /* project */
 
 .projects {
-    padding: 30px;
-    margin-bottom: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .project-movie {
-    width: 1240px;
-    height: 580px;
+    width: 1140px;
+    height: 612px;
+    margin: 0 auto;
 }
+
+.project-movie img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
 
 .img-box  {
     margin: 25px 5px;
@@ -187,8 +216,8 @@ a:hover {
 /* blog */
 
 .blog {
-    margin-bottom: 50px;
-    padding: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .blog-content h3 {
